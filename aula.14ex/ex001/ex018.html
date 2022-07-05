@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contagem</title>
+    <title>Super contador</title>
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
@@ -12,15 +12,13 @@
         <h1>Vamos contar</h1>
     </header>
     <section>
-        <div>
-            <p>Início: <input type="number" name="Início" id="number" min="0"></p>
-            <p>Fim: <input type="number" name="Fim" id="number"></p>
-            <p>Passo: <input type="number" name="Passos" id="number"></p>
+        <div id="dados">
+            <p>Início: <input type="number" name="início" id="txti"></p>
+            <p>Fim: <input type="number" name="fim" id="txtf"></p>
+            <p>Passo: <input type="number" name="passos" id="txtp"></p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
-        <div>
-            <p><input type="button" value="Contar" onclick="verificar()"></p>
-        </div>
-        <div id="contagem">
+        <div id="res">
             <p>Preparando contagem...</p>
         </div>
     </section>
