@@ -12,7 +12,7 @@ function contar() {
         let p = Number(passo.value)
         
         for (let c = i; c <= f; c += p) {
-            res,innerHTML += `${c} `
+            res.innerHTML += `${c} `
         }
     }
 }
