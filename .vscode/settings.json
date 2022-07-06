@@ -1,3 +1,7 @@
 {
-  "liveServer.settings.multiRootWorkspaceName": "javascript"
+  "liveServer.settings.multiRootWorkspaceName": "javascript",
+  "cSpell.words": [
+    "Nosso",
+    "vetor"
+  ]
 }
